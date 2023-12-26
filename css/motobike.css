@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 84px;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(240, 227, 211, 0.6);
+    z-index: 10;
+}
+
+.logo-header {
+    flex: 1;
+}
+
+.logo-header>img {
+    width: 120px;
+    height: 32px;
+}
+
+header>.menu {
+    display: flex;
+    flex: 6;
+    justify-content: flex-end;
+}
+
+header>.menu>li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+header>.account {
+    margin-left: 40px;
+}
+
+.banner>img {
+    width: 100%;
+    margin-top: 84px;
+}
+
+.best-sale {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.product {
+    width: 430px;
+    height: 700px;
+}
+
+.product>.product-img>img {
+    width: 430px;
+    height: 510px;
+}
+
+.product-super {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product>.price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.price>.buy>button {
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(60, 125, 247);
+    color: white;
+}
+
+.product>.price>p {
+    margin-top: 30px;
+}
+
+.list-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-product>.product>img {
+    width: 300px;
+    height: 310px;
+}
+
+.list-product>.product {
+    width: 300px;
+    height: 400px;
+}
+
+.list-product>.product {
+    position: relative;
+}
+
+.list-product>.product>p {
+    /* position: absolute;
+    top: 10px;
+    left: 10px; */
+}
+
+.list-product>.product>.inf {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.price>.buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover,
+.endow {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.discover>.head {
+    text-align: center;
+}
+
+
+.column {
+    width: 300px;
+    max-height: 328px;
+    overflow: hidden;
+}
+
+.column>.endow-pic>img {
+    width: 300px;
+    height: 181px;
+}
+
+.column>.content>h4 {
+    margin-bottom: 14px;
+}
+
+.endow-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1500px;
+    overflow: hidden;
+    grid-gap: 24px;
+    overflow-x: auto;
+}
+
+
+.product {
+    line-height: 30px;
+}
